@@ -1,5 +1,10 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
+  overflow: hidden;
 }
 
 body {
