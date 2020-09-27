@@ -1,0 +1,28 @@
+.sidebarOption {
+  color: #b3b3b3;
+  min-height: 20px;
+  max-height: 40px;
+  cursor: pointer;
+  transition: 100ms color ease-in;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarOption:hover {
+  color: #fff;
+}
+
+.sidebarOption__icon {
+  margin-right: 12px;
+}
+
+.sidebarOption > h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebarOption > p {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
