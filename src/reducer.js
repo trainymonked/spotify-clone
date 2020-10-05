@@ -2,7 +2,6 @@ export const initialState = {
   user: null,
   playlists: [],
   playing: false,
-  // TODO: remove
   item: null
 };
 

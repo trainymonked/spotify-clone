@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: gray;
+  border-radius: 30px;
+  padding: 10px;
+  flex: 0.4;
+  min-width: 160px;
+}
+
+.header__left input {
+  margin-left: 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.header__right h4 {
+  margin-left: 8px;
+}
+
+.header__right .MuiAvatar-root {
+  width: 44px;
+  height: 44px;
+  /* object-fit: cover; */
+}
