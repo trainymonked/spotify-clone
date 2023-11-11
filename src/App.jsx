@@ -42,6 +42,11 @@ function App() {
                     type: 'SET_PLAYLISTS',
                     playlists: playlists,
                 })
+                const discoverWeekly = await spotify.getPlaylist('37i9dQZEVXcEudSAS23ZDc')
+                dispatch({
+                    type: 'SET_DISCOVER_WEEKLY',
+                    discover_weekly: discoverWeekly,
+                })
             }
         }
         fetchData()

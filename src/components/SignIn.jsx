@@ -1,4 +1,5 @@
 import { signInUrl } from '../api/spotify'
+import './SignIn.css'
 import dLogo from './tempSVGvalue'
 
 function SignIn() {

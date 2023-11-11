@@ -1,0 +1,24 @@
+.sidebar {
+    height: 100vh;
+    flex: 0.103;
+    background-color: #040404;
+    color: #b3b3b3;
+    padding: 24px;
+}
+
+.sidebar__logo {
+    width: 131px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.sidebar__title {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.sidebar > hr {
+    border: 1px solid #282828;
+}

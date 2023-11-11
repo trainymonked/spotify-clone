@@ -1,0 +1,22 @@
+.signIn {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.signIn > img {
+  width: 40vw;
+  color: #fff;
+}
+
+.signIn > a {
+  padding: 3vw;
+  border-radius: 99vw;
+  background-color: #1db954;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2vw;
+  text-decoration: none;
+  text-transform: uppercase;
+}

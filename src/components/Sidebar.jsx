@@ -4,6 +4,7 @@ import HomeIcon from '@mui/icons-material/Home'
 import SearchIcon from '@mui/icons-material/Search'
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic'
 import dLogo from './tempSVGValue'
+import './Sidebar.css'
 
 function Sidebar() {
     const [{ playlists }] = useDataContextValue()
